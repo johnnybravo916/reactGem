@@ -16,7 +16,7 @@ function HalfContentBlock(props: {
         <section id={link}>
             <div className={`container-fluid ${listing ? "bg-color" : ""}`}>
                 <div className="row halfcontentblock full-height">
-                    <div className="col-md-5">
+                    <div className="col-lg-5">
                         <div className="sticky-lg-top">
                             <AnimationOnScroll animateIn="animate__fadeInUp">
                                 <h2>{header}</h2>
@@ -24,7 +24,7 @@ function HalfContentBlock(props: {
                         </div>
                     </div>
                     <div
-                        className={`col-md-7 border-left overflow-hidden position-relative ${
+                        className={`col-lg-7 border-left overflow-hidden position-relative ${
                             listing && "listing"
                         }`}
                     >

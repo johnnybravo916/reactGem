@@ -14,7 +14,7 @@ function HalfContentBlock(props: {
         <section id="home">
             <div className="container-fluid min">
                 <div className="row halfcontentblock full-height">
-                    <div className="col-md-5">
+                    <div className="col-lg-5">
                         <div className="sticky-lg-top">
                             <img
                                 className="img-fluid animate__animated animate__fadeInUp"
@@ -24,7 +24,7 @@ function HalfContentBlock(props: {
                             />
                         </div>
                     </div>
-                    <div className="col-md-7 border-left position-relative">
+                    <div className="col-lg-7 border-left position-relative">
                         <strong className="tagline animate__animated animate__fadeInUp">
                             {data.tagline.description}
                         </strong>

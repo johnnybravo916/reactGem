@@ -9,8 +9,12 @@
 html {
     font-size: 10px;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
         font-size: 8px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        font-size: 7px;
     }
 }
 
@@ -32,6 +36,10 @@ a {
 .border-left {
     border-left: 1px solid var(--color-subdued);
     padding: 2rem 3rem 2rem 3rem;
+
+    @media (max-width: 992px) {
+        border-left: none;
+    }
 }
 
 .cel {
@@ -68,6 +76,10 @@ a {
     max-width: 80%;
     margin-bottom: 6rem;
     display: block;
+
+    @media only screen and (max-width: 992px) {
+        max-width: 100%;
+    }
 }
 
 .icon--logo img {
@@ -200,6 +212,24 @@ a {
             }
         }
     }
+
+    @media (max-width: 992px) {
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+
+        nav {
+            left: -105%;
+            bottom: 35px;
+            width: 100%;
+        }
+        .open {
+            nav {
+                left: 105%;
+            }
+        }
+    }
 }
 
 @keyframes menuOpen {
@@ -270,6 +300,7 @@ a {
         border-bottom: 1px solid var(--color-subdued);
         min-height: 50vh;
         background-size: cover;
+        background-attachment: fixed;
     }
 }
 
@@ -337,9 +368,16 @@ a {
         text-decoration: underline;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media (max-width: 992px) {
         h2 {
             font-size: 7rem;
+            text-align: center;
+        }
+        strong,
+        a,
+        address {
+            font-size: 2rem;
+            text-align: center;
         }
     }
 }
@@ -361,6 +399,9 @@ footer {
         &:hover {
             text-decoration: underline;
         }
+    }
+    @media (max-width: 992px) {
+        padding-bottom: 7rem;
     }
 }
 

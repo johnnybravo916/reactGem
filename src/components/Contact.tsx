@@ -18,14 +18,14 @@ function Contact(props) {
                     </div>
                 </div>
                 <div className="row halfcontentblock">
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                         {" "}
                         <AnimationOnScroll animateIn="animate__fadeInUp">
                             <strong>{contact.address_header}</strong>
                             <address>{contact.address}</address>{" "}
                         </AnimationOnScroll>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                         {" "}
                         <AnimationOnScroll animateIn="animate__fadeInUp">
                             <strong>{contact.landline_header}</strong>
@@ -44,7 +44,7 @@ function Contact(props) {
                             </a>{" "}
                         </AnimationOnScroll>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                         {" "}
                         <AnimationOnScroll animateIn="animate__fadeInUp">
                             <strong>{contact.email_header}</strong>

@@ -30,6 +30,7 @@ function NavBar(props: {
                                     href={`${item.link === "/" ? "" : "#"}${
                                         item.link
                                     }`}
+                                    onClick={toggleMenu}
                                 >
                                     {item.title}
                                 </a>

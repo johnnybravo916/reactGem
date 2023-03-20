@@ -1,0 +1,12 @@
+{
+    "short_name": "Diamond Empire Marketing",
+    "name": "We are a trusted supplier of goods and services to local government units in the Philippines. Our company provides a wide range of products that cater to the specific needs of various LGUs.",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32",
+            "type": "image/x-icon"
+        }
+    ],
+    "start_url": "."
+}

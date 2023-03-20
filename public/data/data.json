@@ -1,0 +1,181 @@
+{
+    "meta": {
+        "title": "Diamond-Empire Marketing",
+        "branding": "../assets/images/branding.jpeg"
+    },
+    "mouse": {
+        "title": "scroll down",
+        "icon": "../assets/icons/mouse.png"
+    },
+    "navigation": {
+        "menu": [
+            {
+                "title": "home",
+                "link": "/"
+            },
+            {
+                "title": "Who We Are",
+                "link": "who-we-are"
+            },
+            {
+                "title": "What We Do",
+                "link": "what-we-do"
+            },
+            {
+                "title": "Our Clients",
+                "link": "our-clients"
+            },
+            {
+                "title": "Contact Us",
+                "link": "contact-us"
+            }
+        ]
+    },
+    "home": {
+        "tagline": {
+            "description": "Diamond Empire Marketing was founded in 2017. Our goal is to cater to the needs of the innovative society in the office system for private/retail industry and government office."
+        },
+        "mission": {
+            "title": "Mission",
+            "description": "Our mission as a distributor company is to provide our customers with the highest quality products and services that meet or exceed their expectations. We aim to be a reliable partner to our clients, offering exceptional customer service and maintaining the highest levels of integrity in all our business dealings. Our goal is to create long-term alue for our stakeholders, including our customers, employees, suppliers, and the community."
+        },
+        "vision": {
+            "title": "Vision",
+            "description": "Our vision is to become a leading distributor company, known for our innovative approach, exceptional customer service, and commitment to excellence. We strive to continually improve our processes and leverage the latest technology to provide efficient and reliable distribution services. We aim to build a diverse and inclusive workforce, empowering our employees to excel in their roles and contribute to the growth and success of our company. We also strive to make a positive impact in the communities we serve by supporting local organizations and engaging in sustainable business practices."
+        }
+    },
+    "about": {
+        "title": "Who We Are",
+        "description": [
+            {
+                "paragraph": [
+                    {
+                        "paragraph": "Welcome to our company, where we strive to provide exceptional goods and services to our valued customers. Our company has been in the business of supplying IT equipment, general goods, and services to various industries in the Philippines for several years. We take pride in our commitment to quality, reliability, and customer satisfaction."
+                    },
+                    {
+                        "paragraph": "Our team of experienced professionals is dedicated to understanding and meeting the unique needs of our clients. We work closely with local government units, private organizations, and other entities to ensure that our offerings are tailored to their specific requirements. We believe that building strong relationships with our customers is essential to our success."
+                    },
+                    {
+                        "paragraph": "At our company, we prioritize excellence in everything we do. From our reliable and high-quality products to our exceptional customer service, we are committed to exceeding our customers' expectations. Contact us to learn more about our offerings and how we can assist your organization in achieving its goals."
+                    }
+                ]
+            },
+            {
+                "subheader": [
+                    {
+                        "title": "Financial Information",
+                        "description": "We are focused on growth and development. We have a solid financial plan in place, and we are working hard to establish ourselves as a leading supplier/contractor in our industry."
+                    },
+                    {
+                        "title": "Leadership and Management",
+                        "description": "Our leadership team is made up of experienced professionals with a passion for innovation and customer service. We are dedicated to providing the highest level of quality and service to our customers."
+                    }
+                ]
+            }
+        ]
+    },
+    "services": {
+        "title": "What We Do",
+        "services": [
+            {
+                "title": "ladies, men's and children's apparel",
+                "description": "We offer a variety of clothing options for different ages and genders, catering to the latest fashion trends."
+            },
+            {
+                "title": "corporate/school uniforms",
+                "description": "We specialize in creating customized uniforms for corporate and school clients, ensuring their brand identity is represented well."
+            },
+            {
+                "title": "corporate/government giveaways",
+                "description": "We provide various options for corporate/government giveaways that can be personalized with the client’s logo."
+            },
+            {
+                "title": "office supplies/equipment",
+                "description": "We offer a range of office supplies and equipment, including stationery, furniture and electronics."
+            },
+            {
+                "title": "IT supplies",
+                "description": "We supply IT-related products and services, including hardware and software."
+            },
+            {
+                "title": "medical supplies",
+                "description": "We officer medicals supplies that cater to different medical facilities and professionals."
+            },
+            {
+                "title": "hardware supplies",
+                "description": "We provide hardware supplies for different industries and purposes."
+            },
+            {
+                "title": "grocery suppplies",
+                "description": "We supply groceries that cater to different tastes and preferences."
+            }
+        ]
+    },
+    "clients": {
+        "title": "Our Clients",
+        "clients": [
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_01.jpg"
+            },
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_02.jpg"
+            },
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_03.jpg"
+            },
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_04.jpg"
+            },
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_05.jpg"
+            },
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_06.jpg"
+            },
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_07.jpg"
+            },
+            {
+                "title": "title",
+                "link": "../assets/images/clients/client_08.jpg"
+            }
+        ]
+    },
+    "herobanner": {
+        "office": "../assets/images/office.jpg",
+        "partners": "../assets/images/partners.jpg",
+        "projects": "../assets/images/projects.jpg"
+    },
+    "social": {
+        "facebook": "Lorem ipsum",
+        "instagram": "Lorem ipsum"
+    },
+    "icons": {
+        "diamond": "../assets/icons/diamond.png"
+    },
+    "contact": {
+        "title": "contact us",
+        "address_header": "Address",
+        "address": "17 Tyler St. North Greenhills San Juan",
+        "landline_header": "Landline",
+        "landline": "72116654",
+        "mobile_header": "cellphone",
+        "mobile": "09178420101",
+        "email_header": "Email",
+        "email": "mkt.diamondempire@yahoo.com",
+        "facebook_header": "Facebook",
+        "facebook_link": "https://www.facebook.com/profile.php?id=100085881153022",
+        "facebook_description": "Follow Us"
+    },
+    "footer": {
+        "title": "Back to top",
+        "link": "#home"
+    }
+}

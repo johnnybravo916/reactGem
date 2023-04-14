@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 
 import NavBar from "./components/NavBar.tsx";
+import Intro from "./components/Intro.tsx";
 import HeroContentBlock from "./components/HeroContentBlock.tsx";
 import HalfContentBlock from "./components/HalfContentBlock.tsx";
 import HeroBlock from "./components/HeroBlock.tsx";
@@ -48,7 +49,12 @@ function App() {
                         title={data.meta.title}
                         menu={data.navigation.menu}
                     />
-
+                    <Intro
+                        title={data.meta.title}
+                        secondlink={data.mouse.link}
+                        image={data.herobanner.intro}
+                        position={"center"}
+                    />
                     <HeroContentBlock
                         data={data.home}
                         title={data.meta.title}
@@ -88,7 +94,7 @@ function App() {
                     <Footer
                         title={data.meta.title}
                         back={data.footer.title}
-                        link={data.footer.link}
+                        link={data.mouse.link}
                     />
                 </>
             )}

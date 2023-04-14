@@ -1,5 +1,6 @@
 import React from "react";
 import MouseScroll from "./MouseScroll";
+import {AnimationOnScroll} from "react-animation-on-scroll";
 
 function HalfContentBlock(props: {
     data: any;
@@ -16,30 +17,42 @@ function HalfContentBlock(props: {
                 <div className="row halfcontentblock full-height">
                     <div className="col-lg-5">
                         <div className="sticky-lg-top">
-                            <img
-                                className="img-fluid animate__animated animate__fadeInUp"
-                                src={logo}
-                                alt={title}
-                                title={title}
-                            />
+                            <AnimationOnScroll animateIn="animate__fadeInUp">
+                                <img
+                                    className="img-fluid "
+                                    src={logo}
+                                    alt={title}
+                                    title={title}
+                                />
+                            </AnimationOnScroll>
                         </div>
                     </div>
                     <div className="col-lg-7 border-left position-relative">
-                        <strong className="tagline animate__animated animate__fadeInUp">
-                            {data.tagline.description}
-                        </strong>
-                        <h3 className="animate__animated animate__fadeInUp">
-                            {data.mission.title}
-                        </h3>
-                        <p className="animate__animated animate__fadeInUp">
-                            {data.mission.description}
-                        </p>
-                        <h3 className="animate__animated animate__fadeInUp">
-                            {data.vision.title}
-                        </h3>
-                        <p className="animate__animated animate__fadeInUp">
-                            {data.vision.description}
-                        </p>
+                        <AnimationOnScroll animateIn="animate__fadeInUp">
+                            <strong className="tagline">
+                                {data.tagline.description}
+                            </strong>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInUp">
+                            <h3 className="animate__animated animate__fadeInUp">
+                                {data.mission.title}
+                            </h3>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInUp">
+                            <p className="animate__animated animate__fadeInUp">
+                                {data.mission.description}
+                            </p>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInUp">
+                            <h3 className="animate__animated animate__fadeInUp">
+                                {data.vision.title}
+                            </h3>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInUp">
+                            <p className="animate__animated animate__fadeInUp">
+                                {data.vision.description}
+                            </p>
+                        </AnimationOnScroll>
                         <div className="cel"></div>
                     </div>
                 </div>

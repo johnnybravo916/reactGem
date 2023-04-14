@@ -2,7 +2,12 @@ import React from "react";
 import MouseScroll from "./MouseScroll";
 import {AnimationOnScroll} from "react-animation-on-scroll";
 
-function CompanyList(props) {
+function CompanyList(props: {
+    clients: {title: string; link: string}[];
+    title: string;
+    link: string;
+    secondlink: string;
+}) {
     const {clients, title, link, secondlink} = props;
 
     return (

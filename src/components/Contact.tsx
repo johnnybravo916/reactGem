@@ -1,7 +1,23 @@
 import React from "react";
 import {AnimationOnScroll} from "react-animation-on-scroll";
 
-function Contact(props) {
+function Contact(props: {
+    link: string;
+    contact: {
+        title: string;
+        address_header: string;
+        address: string;
+        landline_header: string;
+        landline: string;
+        mobile_header: string;
+        mobile: string;
+        email_header: string;
+        email: string;
+        facebook_header: string;
+        facebook_link: string;
+        facebook_description: string;
+    };
+}) {
     const {contact, link} = props;
 
     return (

@@ -5,7 +5,8 @@
     },
     "mouse": {
         "title": "scroll down",
-        "icon": "../assets/icons/mouse.png"
+        "icon": "../assets/icons/mouse.png",
+        "link": "home"
     },
     "navigation": {
         "menu": [
@@ -149,6 +150,7 @@
         ]
     },
     "herobanner": {
+        "intro": "../assets/images/cover.jpg",
         "office": "../assets/images/office.jpg",
         "partners": "../assets/images/partners.jpg",
         "projects": "../assets/images/projects.jpg"
@@ -175,7 +177,6 @@
         "facebook_description": "Follow Us"
     },
     "footer": {
-        "title": "Back to top",
-        "link": "#home"
+        "title": "Back to top"
     }
 }

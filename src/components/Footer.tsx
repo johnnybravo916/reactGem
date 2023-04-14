@@ -8,7 +8,7 @@ function Footer(props) {
             <div className="container-fluid">
                 <div className="row justify-content-end">
                     <div className="col-md-12">
-                        <a href={link}>#{back}</a>
+                        <a href={`#${link}`}>{back}</a>
                         <small>
                             Copyright &copy; {new Date().getFullYear()} &bull;{" "}
                             <a
